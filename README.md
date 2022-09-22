@@ -1,5 +1,5 @@
 
-# CoreUI Admin Starter Template
+# Admin Starter Template build in CoreUI
 
 ## What's included
 
