@@ -1,25 +1,12 @@
 import React from 'react'
-import {
-  CCard,
-  CCardBody,
-  CCardHeader,
-  CCol,
-  CDropdown,
-  CDropdownDivider,
-  CDropdownItem,
-  CDropdownMenu,
-  CDropdownToggle,
-  CRow,
-} from '@coreui/react'
-import { DocsExample } from 'src/components'
-
-const Dropdowns = () => {
+import { CButton, CCard, CCardBody, CCardHeader, CCol, CRow } from '@coreui/react'
+const Users = () => {
   return (
     <CRow>
       <CCol xs={12}>
         <CCard className="mb-4">
           <CCardHeader>
-            <strong>Permissions</strong>
+            <strong>Users</strong>
           </CCardHeader>
           <CCardBody>
             <p>
@@ -32,4 +19,4 @@ const Dropdowns = () => {
   )
 }
 
-export default Dropdowns
+export default Users

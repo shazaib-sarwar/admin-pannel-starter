@@ -1,12 +1,13 @@
 import React from 'react'
-import { CButton, CCard, CCardBody, CCardHeader, CCol, CRow } from '@coreui/react'
-const Buttons = () => {
+import { CCard, CCardBody, CCardHeader, CCol, CRow } from '@coreui/react'
+
+const Permissions = () => {
   return (
     <CRow>
       <CCol xs={12}>
         <CCard className="mb-4">
           <CCardHeader>
-            <strong>Users</strong>
+            <strong>Permissions</strong>
           </CCardHeader>
           <CCardBody>
             <p>
@@ -19,4 +20,4 @@ const Buttons = () => {
   )
 }
 
-export default Buttons
+export default Permissions

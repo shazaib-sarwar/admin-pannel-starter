@@ -17,23 +17,23 @@ const _nav = [
   {
     component: CNavGroup,
     name: 'User Management',
-    to: '/buttons',
+    to: '/users',
     icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
         name: 'Users',
-        to: '/buttons/buttons',
+        to: '/users/users',
       },
       {
         component: CNavItem,
         name: 'Roles',
-        to: '/buttons/button-groups',
+        to: '/users/roles',
       },
       {
         component: CNavItem,
         name: 'Permissions',
-        to: '/buttons/dropdowns',
+        to: '/users/permissions',
       },
     ],
   },
